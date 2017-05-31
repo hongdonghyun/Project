@@ -4,7 +4,7 @@ from class_sample import User,Food,Something,Drink
 xeno = PCroom('제노','PC방','신사역','1300')
 lotteria = Shop('Lotteria','패스트푸드','서울시 강남구')
 xeno.shop_info()
-# lotteria.shop_info()
+lotteria.shop_info(1)
 # lotteria.change_type('롯데리아는 화장실만 쓴다')
 # lotteria.shop_info()
 
